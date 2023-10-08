@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    background-image: url('./Img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    z-index: 5;
+    border-bottom: 7px solid rgb(77, 101, 139);
+}
+
+.container div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width: auto;
+    height: 70%;
+    border: 1px solid silver;
+    border-radius: 13px;
+    box-shadow: 2px 3px 13px black;
+}
+
+.Name{
+    flex-direction: column;
+    
+}
+
+.Name h1{
+    text-align: center;
+    color: rgb(77, 101, 139);
+    font-size: 8rem;
+}
+
+.Name p{
+    color: silver;
+    text-align: justify;
+    font-size: 2rem;
+    padding: 15%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-bottom: 7px solid rgb(77, 101, 139);
+    background: url('./Img/b2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.infoCont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.info h1{
+    width: 100%;
+    font-size: 3rem;
+    color:rgb(40, 55, 81);
+    text-align: center;
+    padding: 4%;
+}
+
+.info ul{
+    line-height: 2rem;
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    text-align: justify;
+    color:rgb(77, 101, 139);
+}
+.info ul li{
+    padding: 2% 0%;
+}
+.info .img{
+    padding: 2%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info img{
+    width: 100%;
+    height: auto;
+}
+
+.LinkHandles{
+    background: url('./Img/bg.png') no-repeat;
+    background-size: cover;
+    padding: 2%;
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+.LinkHandles a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: silver;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialMedia img{
+    width: 30px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+.Link a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
