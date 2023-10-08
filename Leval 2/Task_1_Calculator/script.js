@@ -37,5 +37,6 @@ function display(value) {
   document.body.addEventListener('keydown',(e)=>{
     if(e.key==='Backspace') backspace()
     else if(e.keyCode===187) calculate()
+    else if(e.key==='c' || e.key === 'C') clearScreen()
   })
 
